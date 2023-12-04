@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const db = require("../db");
 
 const generateToken = (userId) => {
-  return jwt.sign({ userId }, "your_secret_key", { expiresIn: "1h" });
+  return jwt.sign({ userId }, "instaClone123", { expiresIn: "1h" });
 };
 
 const login = (req, res) => {

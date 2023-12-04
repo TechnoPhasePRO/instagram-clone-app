@@ -14,7 +14,7 @@ connection.connect((err) => {
 const closeConnection = () => {
   connection.end((err) => {
     if (err) throw err;
-    console.log("MySQL connection is closed");
+    console.log("MySQL connection closed");
   });
 };
 
