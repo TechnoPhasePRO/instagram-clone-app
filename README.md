@@ -26,15 +26,13 @@ This project aims to replicate the core functionalities of Instagram's backend, 
 
 ## Setup
 
-1. Clone the repository:
+1. Clone the repository: https://github.com/TechnoPhasePRO/instagram-clone-app.git
 
-2. Install dependencies:
+2. Install dependencies
 
 3. Configure the MySQL connection in `db.js` file.
 
-4. Start the server:
-
-- npm start
+4. Start the server: `npm start`
 
 ## API Endpoints
 
